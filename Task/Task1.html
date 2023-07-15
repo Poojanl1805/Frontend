@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>Application Form</h1>
+<body>
+    <br>
+    <form>
+        <div>
+            <!--Name-->
+          <label>Name:</label>
+          <input type="text" name="name" placeholder="Enter your name"size="20"><br>
+        </div>
+        <br>
+        <div>
+            <!--Email-->
+          <label>Email:</label>
+          <input type="text" name="email" placeholder="Enter your email"size="20"><br>
+        </div>
+        <br>
+        <div> 
+            <!--Gender-->
+            <label>Gender:</label>
+            <input type="radio" name="Gender" value="Male"/>
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender" value="Female"/>
+            <label for="Female">Female</label><br>
+        </div>
+        <div>
+            <!--Skills-->
+            <br>
+            <label >CHOOSE SKILLS</label>
+            <br>
+            <br>
+            <label>HTML</label>
+            <input type="Checkbox" id="HTML" name="skills" value="HTML">
+            <label>CSS</label>
+            <input type="Checkbox" id="CSS" name="skills" value="CSS">
+            <label>JS</label>
+            <input type="Checkbox" id="JS" name="skills" value="JS">
+            <label>Bootstrap</label>
+            <input type="Checkbox" id="Bootstrap" name="skills" value="Bootstrap">
+            <label>React</label>
+            <input type="Checkbox" id="React" name="skills" value="React">
+        </div>
+        <br>
+        <div>
+            <!--Job Type-->
+            <label >JOB TYPE</label>
+            <select name="language">
+               <option value="FRONT END DEVELOPER">FRONT END DEVELOPER</option>
+               <option value="BACK END DEVELOPER">BACK END DEVELOPER</option>
+               <option value="FULLSTACK END DEVELOPER">FULLSTACK END DEVELOPER</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <!--Choosing Browser-->
+            <label>Choose your browser from the list:</label>
+          <input type="text" name="name"size="20"><br>
+        </div>
+        <div>
+            <!--Summary about you-->
+         <textarea name="Welcome msg" placeholder="Give a brief summary about you"id="summary" rows="2"cols="20"></textarea>
+        </div>
+        <br>
+        <button>Submit</button
+    </form>
+</body>
+</html>
