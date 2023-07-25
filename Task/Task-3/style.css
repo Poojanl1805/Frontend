@@ -1,0 +1,87 @@
+
+    body{
+        user-select: none;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: 3px solid #ebecdd;
+        padding:0px;
+        margin-right:-4px;
+        margin-left:5px;
+        margin-inline:blue;
+    }
+    h4{
+        color:rgb(57, 57, 54);
+    }
+    .slide_content {
+        height: 350px;
+      }
+    .pooj{
+        margin-left:10px;
+    }
+    .cardcontainer{
+        text-align: center;  
+    }
+    .cardcontainer ul{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content:space-evenly;
+        
+    }
+    .cardcontainer ul div{
+        margin-top: 20px;
+        padding-left: 5px;
+        border: 3px solid #d9df1e;
+        width: 250px;
+        height: 250px;
+        overflow:hidden;
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: 3px 3px 5px 6px #1f1e15;
+        box-sizing: border-box;
+    }
+    .cardcontainer ul div:hover{
+        background-color:rgb(180, 180, 115);
+    }
+    .testy{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .testimoni{
+        width: 350px;
+        padding: 15px;
+        text-align: center;
+        margin: 5px;
+        margin-top: 30px;
+        overflow: auto;
+        cursor:pointer;
+        opacity: 0.9;  
+    }
+    .testimoni:hover{
+        opacity: 1;
+    }
+    #form{
+        width: 400px;
+        text-align: start;
+        padding: 32px;
+        border: 2px solid rgb(217, 207, 21);
+        border-radius: 13px;
+        box-shadow: rgba(95, 68, 68, 0.12) 0px 1px 3px rgba(16, 1, 1, 0.24) 0px 1px 2px;
+    }
+    .reg{
+        text-align: center;
+    }
+    #form button{
+        margin-left:50px;
+        width:90px;
+    }
+    
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
