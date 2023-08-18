@@ -1,0 +1,48 @@
+/* LandingPage.css */
+
+/* LandingPage.css */
+
+/* ... (previous styles) ... */
+
+.nav-link {
+    padding: 10px 20px;
+    font-size: 18px; /* Increase the font size for the navbar icons */
+    border-radius: 50%; /* Make it circular */
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 5px; /* Add a slight margin */
+  }
+  
+  .nav-link:hover {
+    background-color: rgba(200, 135, 135, 0.6);
+  }
+  
+.white-section {
+    padding: 40px;
+    /* Remove or comment out the background-color property */
+  }
+  
+  .white-text {
+    color: #f8f8fb;
+    font-weight: bold;
+    font-size: 36px;
+  }
+  
+  .discover-button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 24px;
+  }
+  
+  .discover-button:hover {
+    background-color: rgba(145, 37, 37, 0.6);
+  }
+  
